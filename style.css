@@ -1,0 +1,45 @@
+.Kontakt {
+    text-align: center;
+    padding: 2%;
+    background-color: #EDDAD0;
+    margin: 2% 20% 2% 20%;
+    border-radius: 20px;
+    }
+
+.moje-foto {
+    float: left;
+    margin: 5%;
+    border-radius: 20px;
+    
+}
+
+.Vzdělání {
+    background-color: #E8EDD0;
+    margin: 2% 20% 2% 20%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2%;
+    line-height: 1.5;
+}
+
+
+body {
+    background-color: #C9C5B1;
+    font-family: "Quicksand";
+    color:#787569;
+}
+
+
+h3 {
+    font-size: small;
+    margin: 1%;
+}
+
+h4 {
+    font-size: smaller;
+}
+
+a {
+    color: #4F4D46;
+    text-decoration: none;
+    }
