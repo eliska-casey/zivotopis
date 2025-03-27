@@ -25,21 +25,35 @@
 
 body {
     background-color: #C9C5B1;
-    font-family: "Quicksand";
+    font-family: "Arimo"; 
     color:#787569;
 }
 
+h1 {
+    font-weight: normal;
+    font-family: "Montserrat";
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: normal;
+}
 
 h3 {
     font-size: small;
+    font-family: "Arimo";
     margin: 1%;
-}
+    }
 
 h4 {
     font-size: smaller;
+    font-family: "Arimo";
 }
 
 a {
     color: #4F4D46;
     text-decoration: none;
     }
+
+
+      
