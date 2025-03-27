@@ -1,20 +1,20 @@
 .Kontakt {
+    position: relative;
     text-align: center;
     padding: 2%;
-    background-color: #EDDAD0;
     margin: 2% 20% 2% 20%;
-    border-radius: 20px;
     }
 
 .moje-foto {
-    float: left;
-    margin: 5%;
-    border-radius: 20px;
-    
-}
+    filter: grayscale(80%);
+    transform: scale(1.5);
+    transform: rotate(-15deg);
+    transform: translateX(-50%) scale(1.5) rotate(-15deg);
+    position: absolute;
+    z-index: -1;
+    }
 
 .Vzdělání {
-    background-color: #E8EDD0;
     margin: 2% 20% 2% 20%;
     border-radius: 20px;
     text-align: center;
@@ -24,7 +24,7 @@
 
 
 body {
-    background-color: #C9C5B1;
+    background-color: white;
     font-family: "Arimo"; 
     color:#787569;
 }
@@ -32,7 +32,9 @@ body {
 h1 {
     font-weight: normal;
     font-family: "Montserrat";
-}
+    font-size: 460%;
+    text-align: center;
+    }
 
 h2 {
     font-family: "Montserrat";
