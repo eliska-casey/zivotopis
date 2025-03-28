@@ -12,8 +12,9 @@
 }
 .hlavicka h2 {
     font-size: 500%;
-    margin-bottom: 5px;
+    margin-bottom:0%;
 }
+
 .moje-foto {
     position: absolute;
     top: 82%;
