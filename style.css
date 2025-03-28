@@ -2,11 +2,11 @@
     text-align: center;
     position: relative;
     margin-top: 0;
-    padding-top: 0;
+    padding-top: 20px;
 }
 
 .hlavicka h1 {
-    margin-top: 0;
+    margin-top: -10px;
     font-weight:400; 
     font-family: "Montserrat";
     font-size: 2000%;
@@ -14,12 +14,16 @@
     position: relative;
     z-index: 2;
 }
+
 .hlavicka h2 {
     font-size: 1000%;
-    margin-bottom:0%;
-    margin-top: 0;
+    margin-bottom:0;
+    margin-top: 10px;
 }
 
+.hlavicka h1, .hlavicka h2 {
+    line-height:normal; 
+}
 .moje-foto {
     position: absolute;
     top: 85%;
@@ -36,7 +40,7 @@
     margin-bottom: 10px;
     margin-top: 60px;
     font-size: larger;
-    position: relative;;
+    position: relative;
     z-index: 2;
     }
 
@@ -96,8 +100,27 @@ th {
 
 .Vzdělání-nadpis {
     text-align: left;
+    vertical-align: top;
+    padding-top: 20px;
 }
 
 .Praxe-nadpis {
-    text-align: center;
+    text-align: left;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.Kurzy-nadpis {
+    text-align: left;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.Vzdělání-a-praxe {
+    background-color: antiquewhite;
+    
+}
+
+.Vzdělání-tabulka {
+    table-layout: fixed;
 }
