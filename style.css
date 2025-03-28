@@ -23,6 +23,12 @@
     filter: grayscale(100%);
     }
 
+.O-mně {
+    text-transform: uppercase;
+    text-align: justify;
+    padding: 60px 30% 30px 30%;
+    margin-bottom: 10px;
+    }
 .Kontakt {
     text-align: center;
     padding: 2%;
