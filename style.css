@@ -49,6 +49,7 @@
     filter: grayscale(100%);
 }
 
+
 .O-mně {
     text-align:justify;
     padding: 70px 25% 10px 25%;
@@ -94,7 +95,7 @@ h2 {
 }
 
 h3 {
-    font-size: small;
+    font-size: medium;
     font-family: "Arimo";
     margin: 1%;
     }
@@ -116,19 +117,27 @@ th {
 }
 
 .Vzdělání-nadpis {
-    text-align: left;
+    text-align: center;
     vertical-align: top;
     padding-top: 20px;
 }
 
 .Praxe-nadpis {
-    text-align: left;
+    text-align: center;
     vertical-align: top;
     padding-top: 20px;
 }
 
+.Praxe-nadpis h4 {
+    font-style: italic;
+}
+
+.Praxe-nadpis h3 h4 {
+    line-height: 1;
+    }
+
 .Kurzy-nadpis {
-    text-align: right;
+    text-align: center;
     vertical-align: top;
     padding-top: 20px;
 }
@@ -138,6 +147,7 @@ th {
     
 }
 
-.Vzdělání-tabulka {
+.Vzdělání-tabulka th, td {
+    width: 33.33%;
     table-layout: fixed;
 }
