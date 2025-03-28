@@ -1,18 +1,33 @@
-.Kontakt {
+.hlavicka {
+    text-align: center;
     position: relative;
+}
+
+.hlavicka h1 {
+    margin-top: 0;
+    font-weight:500; 
+    font-family: "Montserrat";
+    font-size: 1200%;
+    text-align: center;
+}
+.hlavicka h2 {
+    font-size: 500%;
+    margin-bottom: 5px;
+}
+.moje-foto {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    filter: grayscale(100%);
+    }
+
+.Kontakt {
     text-align: center;
     padding: 2%;
     margin: 2% 20% 2% 20%;
     }
 
-.moje-foto {
-    filter: grayscale(80%);
-    transform: scale(1.5);
-    transform: rotate(-15deg);
-    transform: translateX(-50%) scale(1.5) rotate(-15deg);
-    position: absolute;
-    z-index: -1;
-    }
 
 .Vzdělání {
     margin: 2% 20% 2% 20%;
@@ -26,15 +41,9 @@
 body {
     background-color: white;
     font-family: "Arimo"; 
-    color:#787569;
+    color: black;
 }
 
-h1 {
-    font-weight: normal;
-    font-family: "Montserrat";
-    font-size: 460%;
-    text-align: center;
-    }
 
 h2 {
     font-family: "Montserrat";
