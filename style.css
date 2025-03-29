@@ -98,6 +98,7 @@ h3 {
     font-size: medium;
     font-family: "Arimo";
     margin: 1%;
+    margin-bottom: 10px;
     }
 
 h4 {
@@ -136,10 +137,10 @@ th {
     line-height: 1;
     }
 
-.Kurzy-nadpis {
-    text-align: center;
-    vertical-align: top;
+.Dovednosti {
+    text-align: left;
     padding-top: 20px;
+    padding-left: 25%;
 }
 
 .Vzdělání-a-praxe {
@@ -150,4 +151,4 @@ th {
 .Vzdělání-tabulka th, td {
     width: 33.33%;
     table-layout: fixed;
-}
+    }
