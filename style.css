@@ -9,14 +9,14 @@
     margin-top: -10px;
     font-weight:400; 
     font-family: "Montserrat";
-    font-size: 2000%;
+    font-size: 2200%;
     text-align: center;
     position: relative;
     z-index: 2;
 }
 
 .hlavicka h2 {
-    font-size: 1000%;
+    font-size: 1200%;
     margin-bottom:0;
     margin-top: 10px;
 }
@@ -26,7 +26,7 @@
 }
 .moje-foto {
     position: absolute;
-    top: 85%;
+    top: 60%;
     left: 51%;
     transform: translate(-50%, -10%); 
     filter: grayscale(100%);
@@ -34,25 +34,44 @@
     height: auto;
     }
 .linkedin {
-    position: absolute;
+    position: relative;
     top: 95%;
-    left: 73%;
+    left: 500px;
     width: 40px;
     filter: grayscale(100%);
 }
 
 .FB {
-    position: absolute;
+    position: relative;
     top: 95%;
-    left: 70%;
+    left: 400px;
     width: 40px;
     filter: grayscale(100%);
 }
 
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #282425;
+    position: relative;
+    top: 56px;
+    }
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
 
 .O-mně {
     text-align:justify;
-    padding: 70px 25% 10px 25%;
+    padding: 70px 20% 10px 20%;
     margin-bottom: 10px;
     margin-top: 60px;
     font-size: larger;
@@ -63,13 +82,14 @@
     }
 
 .Vzdělání-a-praxe {
-    padding: 50px 25% 10px 25%;
+    padding: 50px 20% 10px 20%;
 }
 
 .Kontakt {
     text-align: center;
     padding: 2%;
     margin: 2% 20% 2% 20%;
+    margin-top: 100px;
     }
 
 
@@ -86,6 +106,7 @@ body {
     background-color: white;
     font-family: "Arimo"; 
     color: black;
+    margin: 0;
 }
 
 
@@ -97,7 +118,6 @@ h2 {
 h3 {
     font-size: medium;
     font-family: "Arimo";
-    margin: 1%;
     margin-bottom: 10px;
     }
 
@@ -135,20 +155,48 @@ th {
 
 .Praxe-nadpis h3 h4 {
     line-height: 1;
-    }
-
-.Dovednosti {
-    text-align: left;
-    padding-top: 20px;
-    padding-left: 25%;
 }
+
 
 .Vzdělání-a-praxe {
-    background-color: antiquewhite;
-    
+    background-color: antiquewhite;  
 }
-
+    
 .Vzdělání-tabulka th, td {
     width: 33.33%;
     table-layout: fixed;
-    }
+}
+
+
+.Dovednosti {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-inline: auto;
+    padding-bottom: 100px;
+    
+}
+
+.Dovednosti h2 {
+    float: left;
+    padding: 30%;
+    font-size: xx-large;
+    padding-right: 10%;
+}
+
+.Dovednosti h3 {
+    text-decoration: underline;
+    line-height: 2;
+}
+
+.Dovednosti h4 {
+    font-style: oblique;
+}
+.Dovednosti-obsah {
+    text-align: left;
+    background-color: #4F4D46; 
+    margin-left: 50%;
+    padding: 5%;
+    color: white;
+    
+        }
