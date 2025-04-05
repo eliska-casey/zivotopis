@@ -85,12 +85,7 @@
     padding: 50px 20% 10px 20%;
 }
 
-.Kontakt {
-    text-align: center;
-    padding: 2%;
-    margin: 2% 20% 2% 20%;
-    margin-top: 100px;
-    }
+
 
 
 .Vzdělání {
@@ -170,18 +165,17 @@ th {
 
 .Dovednosti {
     text-align: left;
-    margin-bottom: 20px;
     margin-top: 0px;
     margin-inline: auto;
-    padding-bottom: 100px;
     
 }
 
 .Dovednosti h2 {
     float: left;
-    padding: 30%;
+    padding: 20% 10% 0 30%;
     font-size: xx-large;
     padding-right: 10%;
+    margin-right: 10px;
 }
 
 .Dovednosti h3 {
@@ -200,6 +194,16 @@ th {
     color: white;
     
         }
+.Kontakt {
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    background-color: antiquewhite;
+    
+}
 
 
 .paticka {
