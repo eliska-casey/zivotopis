@@ -72,8 +72,7 @@
 .O-mně {
     text-align:justify;
     padding: 70px 20% 10px 20%;
-    margin-bottom: 10px;
-    margin-top: 60px;
+    margin: 35px 0;
     font-size: larger;
     position: relative;
     z-index: 2;
@@ -84,8 +83,6 @@
 .Vzdělání-a-praxe {
     padding: 50px 20% 10px 20%;
 }
-
-
 
 
 .Vzdělání {
@@ -102,6 +99,7 @@ body {
     font-family: "Arimo"; 
     color: black;
     margin: 0;
+    
 }
 
 
@@ -156,7 +154,8 @@ th {
 .Vzdělání-a-praxe {
     background-color: antiquewhite;  
 }
-    
+
+
 .Vzdělání-tabulka th, td {
     width: 33.33%;
     table-layout: fixed;
@@ -166,8 +165,7 @@ th {
 .Dovednosti {
     text-align: left;
     margin-top: 0px;
-    margin-inline: auto;
-    
+      
 }
 
 .Dovednosti h2 {
@@ -181,7 +179,8 @@ th {
 .Dovednosti h3 {
     text-decoration: underline;
     line-height: 2;
-}
+    
+    }
 
 .Dovednosti h4 {
     font-style: oblique;
@@ -192,15 +191,14 @@ th {
     margin-left: 50%;
     padding: 5%;
     color: white;
-    
-        }
+     }
+
+
 .Kontakt {
     text-align: center;
-    padding: 20px;
+    padding: 20px 5px;
     display: block;
     margin: 0;
-    position: relative;
-    width: 100%;
     background-color: antiquewhite;
     
 }
@@ -210,8 +208,9 @@ th {
     display: block;
     background-color: #282425;
     color: aliceblue;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-style: italic;
-    font-size: larger;
+    border-radius: 0 0 20px 20px;
 }
+
