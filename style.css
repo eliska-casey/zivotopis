@@ -81,6 +81,10 @@
     padding: 20px 30px;
 }
 
+.menu a:hover {
+    background-color: #4F4D46;
+}
+
 
 .o-mne {
     text-align:justify;
