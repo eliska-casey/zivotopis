@@ -49,6 +49,18 @@
     filter: grayscale(100%);
 }
 
+.linkedin:hover {
+    filter: none;
+    background-color: #0A66C2;
+    border-radius: 50%;
+}
+
+.FB:hover {
+    filter: none;
+    background-color: #3D5998;
+    border-radius: 50%;
+}
+
 .menu {
     margin: 0;
     padding: 0;
@@ -68,6 +80,7 @@
     text-decoration: none;
     padding: 20px 30px;
 }
+
 
 .O-mně {
     text-align:justify;
@@ -123,6 +136,7 @@ a {
     color: #4F4D46;
     text-decoration: none;
     }
+
 
 th {
     font-family: "Montserrat";
