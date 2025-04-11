@@ -41,7 +41,7 @@
     filter: grayscale(100%);
 }
 
-.FB {
+.fb {
     position: relative;
     top: 95%;
     left: 400px;
@@ -55,7 +55,7 @@
     border-radius: 50%;
 }
 
-.FB:hover {
+.fb:hover {
     filter: none;
     background-color: #3D5998;
     border-radius: 50%;
@@ -82,7 +82,7 @@
 }
 
 
-.O-mně {
+.o-mne {
     text-align:justify;
     padding: 70px 20% 10px 20%;
     margin: 35px 0;
@@ -93,12 +93,12 @@
     line-height: 1.5;
     }
 
-.Vzdělání-a-praxe {
+.vzdelani-a-praxe {
     padding: 50px 20% 10px 20%;
 }
 
 
-.Vzdělání {
+.vzdelani {
     margin: 2% 20% 2% 20%;
     border-radius: 20px;
     text-align: center;
@@ -144,45 +144,45 @@ th {
     font-size:xx-large;
 }
 
-.Vzdělání-nadpis {
+.vzdelani-nadpis {
     text-align: center;
     vertical-align: top;
     padding-top: 20px;
 }
 
-.Praxe-nadpis {
+.praxe-nadpis {
     text-align: center;
     vertical-align: top;
     padding-top: 20px;
 }
 
-.Praxe-nadpis h4 {
+.praxe-nadpis h4 {
     font-style: italic;
 }
 
-.Praxe-nadpis h3 h4 {
+.praxe-nadpis h3, .praxe-nadpis h4 {
     line-height: 1;
 }
 
 
-.Vzdělání-a-praxe {
+.vzdelani-a-praxe {
     background-color: antiquewhite;  
 }
 
 
-.Vzdělání-tabulka th, td {
+.vzdelani-tabulka th, td {
     width: 33.33%;
     table-layout: fixed;
 }
 
 
-.Dovednosti {
+.dovednosti {
     text-align: left;
     margin-top: 0px;
       
 }
 
-.Dovednosti h2 {
+.dovednosti h2 {
     float: left;
     padding: 20% 10% 0 30%;
     font-size: xx-large;
@@ -190,16 +190,16 @@ th {
     margin-right: 10px;
 }
 
-.Dovednosti h3 {
+.dovednosti h3 {
     text-decoration: underline;
     line-height: 2;
     
     }
 
-.Dovednosti h4 {
+.dovednosti h4 {
     font-style: oblique;
 }
-.Dovednosti-obsah {
+.dovednosti-obsah {
     text-align: left;
     background-color: #4F4D46; 
     margin-left: 50%;
@@ -208,7 +208,7 @@ th {
      }
 
 
-.Kontakt {
+.kontakt {
     text-align: center;
     padding: 20px 5px;
     display: block;
